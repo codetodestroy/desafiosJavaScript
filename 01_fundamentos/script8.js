@@ -1,22 +1,22 @@
-function calculadora(numA, numB, operador) {
-    var resultado = 0;
-    switch(operador) {
+function calculator(numA, numB, operator) {
+    var result = 0;
+    switch(operator) {
         case '+':
-            resultado = numA + numB;
+            result = numA + numB;
             break;
         case '-':
-            resultado = numA - numB;
+            result = numA - numB;
             break;
         case '*':
-            resultado = numA * numB;
+            result = numA * numB;
             break;
         case '/':
-            resultado = numA / numB;
+            result = numA / numB;
             break;
         default: 
-            resultado = 'Operador inválido!';
+            result = 'Operador inválido!';
     }
-    return resultado;
+    return result;
 }
 
-console.log(calculadora(5, 5, '+'));
+console.log(calculator(5, 5, '+'));
